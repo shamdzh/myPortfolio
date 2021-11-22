@@ -56,16 +56,41 @@ button:focus,
     font-weight: 500;
 }
 
-.projects {
-    padding-top: 10px;
+.about {
+    // text-align: center;
 }
 
+
+.about {
+    padding: 50px 0;
+    background-color: #fbfbfb;
+}
+
+.projects {
+    padding: 40px 0 50px 0;
+
+    .projects__title {
+        // text-align: center;
+    }
+
+    .lead {
+        // text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
+
 .cardBox {
-    
+    max-width: 450px;
+    overflow: hidden;
 }
 
 .cardImg {
     overflow: hidden;
+    height: 200px;
 }
 
 .card-link {
@@ -82,7 +107,8 @@ button:focus,
 .skills {
     padding: 0rem 1rem 0.8rem 1rem;
     border-top: solid 1px #cfcfcf60;
-
+    margin-right: -0.8rem;
+    
 
     &__list {
         display: flex;

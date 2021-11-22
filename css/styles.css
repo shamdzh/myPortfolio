@@ -57,12 +57,27 @@ button:focus,
   font-weight: 500;
 }
 
+.about {
+  padding: 50px 0;
+  background-color: #fbfbfb;
+}
+
 .projects {
-  padding-top: 10px;
+  padding: 40px 0 50px 0;
+}
+
+.projects .lead {
+  padding-bottom: 20px;
+}
+
+.cardBox {
+  max-width: 450px;
+  overflow: hidden;
 }
 
 .cardImg {
   overflow: hidden;
+  height: 200px;
 }
 
 .card-link {
@@ -79,6 +94,7 @@ button:focus,
 .skills {
   padding: 0rem 1rem 0.8rem 1rem;
   border-top: solid 1px #cfcfcf60;
+  margin-right: -0.8rem;
 }
 
 .skills__list {
