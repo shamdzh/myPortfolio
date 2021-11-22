@@ -1,17 +1,18 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
+   padding: 0;
+   margin: 0;
+   border: 0;
 }
 
 body {
-    min-height: 100vh;
+   min-height: 100vh;
 }
 
-ol, ul {
-    padding: 0;
-    margin: 0;
-	list-style: none;
+ol,
+ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
 }
 
 a.active.focus,
@@ -32,139 +33,138 @@ button:focus,
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: 0 !important;
-    outline-color: transparent !important;
-    outline-width: 0 !important;
-    outline-style: none !important;
-    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+   outline: 0 !important;
+   outline-color: transparent !important;
+   outline-width: 0 !important;
+   outline-style: none !important;
+   box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
 }
 
 .nav-wrapper {
-    padding: 0 15px;
+   padding: 0 15px;
 }
 
 .gitBtn {
-    padding: 5px 30px;
-    font-weight: 500;
-    border-radius: 5px;
-    border-width: 2px;
+   padding: 5px 30px;
+   font-weight: 500;
+   border-radius: 5px;
+   border-width: 2px;
 }
 
 .myNav {
-    padding: 10px 0;
-    background: #3b5998;
-    font-weight: 500;
+   padding: 10px 0;
+   background: #3b5998;
+   font-weight: 500;
 
-    &__name {
-        color: #fff;
-    }
-}
-
-
-.about {
-    padding: 50px 0;
-    background-color: #fbfbfb;
-    text-align: center;
-
-    .about__title {
-        padding-bottom: 15px;
-    }
+   &__name {
+      color: #fff;
+   }
 }
 
 .projects {
-    padding: 40px 0 50px 0;
+   padding: 40px 0 50px 0;
 
-    .projects__title {
-        text-align: center;
-        padding-bottom: 10px;
-    }
+   .projects__title {
+      text-align: center;
+      padding-bottom: 10px;
+   }
 
-    .lead {
-        text-align: center;
-        padding-bottom: 20px;
-    }
+   .lead {
+      text-align: center;
+      padding-bottom: 20px;
+   }
 }
 
-
-
-
-
 .cardBox {
-    max-width: 450px;
-    overflow: hidden;
+   max-width: 450px;
+   overflow: hidden;
 }
 
 .cardImg {
-    overflow: hidden;
-    height: 200px;
+   overflow: hidden;
+   height: 200px;
 }
 
 .card-link {
-    color: #1c64c4;
-    font-weight: 500;
-    text-decoration: none;
+   color: #1c64c4;
+   font-weight: 500;
+   text-decoration: none;
 
-    &:hover {
-        color: #196edd;
-        cursor: pointer;
-    }
+   &:hover {
+      color: #196edd;
+      cursor: pointer;
+   }
 }
 
 .skills {
-    padding: 0rem 1rem 0.8rem 1rem;
-    border-top: solid 1px #cfcfcf60;
-    margin-right: -0.8rem;
-    
+   padding: 0rem 1rem 0.8rem 1rem;
+   border-top: solid 1px #cfcfcf60;
+   margin-right: -0.8rem;
 
-    &__list {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        
-    }
+   &__list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
 
-    .skill {
-        margin: 0.8rem 0.8rem 0 0;
-        padding: 2px 15px;
-        border: 1px solid #1c64c4;
-        text-align: center;
-        font-size: 0.85rem;
-        font-weight: 500;
-        color: #1c64c4;
-        
-    }
+   .skill {
+      margin: 0.8rem 0.8rem 0 0;
+      padding: 2px 15px;
+      border: 1px solid #1c64c4;
+      text-align: center;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #1c64c4;
+   }
+}
+
+.about {
+   padding: 50px 0;
+   background-color: #fbfbfb;
+   text-align: center;
+   font-size: 1rem;
+
+   .about__title {
+      padding-bottom: 15px;
+   }
 }
 
 .contacts {
-    font-size: 1.05rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #3b5998;
+  
+
+   font-size: 1.05rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   color: #3b5998;
 }
 
 .email {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    margin-right: 50px;
-    i {
-        margin-right: 10px;
-    }
+   padding-top: 5px;
+   padding-bottom: 10px;
+   margin: 0 15px;
+
+   i {
+      margin-right: 10px;
+   }
 }
 
 .phone {
-    i {
-        margin-right: 10px
-    }
+   margin: 0 15px;
+
+   i {
+      margin-right: 10px;
+   }
 }
 
 .myfooter {
-    background: #3b5998;
-    color: #fff;
-    padding: 10px 0;
+   background: #3b5998;
+   color: #fff;
+   padding: 10px 0;
 }
 
 .author {
-    text-align: center;
-    margin: 0;
+   text-align: center;
+   margin: 0;
 }
