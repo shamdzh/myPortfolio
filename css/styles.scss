@@ -78,11 +78,27 @@ button:focus,
 .cardBox {
    max-width: 450px;
    overflow: hidden;
+
+   &:hover {
+      img {
+         transform: scale(1.1);
+      }
+
+      -webkit-box-shadow: 0px 5px 30px 2px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 0px 5px 30px 2px rgba(34, 60, 80, 0.2);
+      box-shadow: 0px 5px 30px 2px rgba(34, 60, 80, 0.2);
+   }
+
+   transition: all 0.6s;
 }
 
 .cardImg {
    overflow: hidden;
    height: 200px;
+
+   img {
+      transition: all 0.8s;
+   }
 }
 
 .card-link {
@@ -115,6 +131,13 @@ button:focus,
       font-size: 0.85rem;
       font-weight: 500;
       color: #1c64c4;
+      transition: all 0.3s;
+      cursor: pointer;
+
+      &:hover {
+         background-color: #1c64c4;
+         color: #fff;
+      }
    }
 }
 
@@ -130,14 +153,13 @@ button:focus,
 }
 
 .contacts {
-  
-
    font-size: 1.05rem;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
    color: #3b5998;
+   font-weight: 500;
 }
 
 .email {
