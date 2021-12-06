@@ -49,6 +49,18 @@ button:focus,
    font-weight: 500;
    border-radius: 5px;
    border-width: 2px;
+
+   &:hover {
+      a {
+         color: #333;
+      }  
+   }
+    
+   a {
+      color: #fff;
+      text-decoration: none;
+      transition: all 0.1s linear;
+   }
 }
 
 .myNav {
@@ -111,6 +123,8 @@ button:focus,
       cursor: pointer;
    }
 }
+
+
 
 .skills {
    padding: 0rem 1rem 0.8rem 1rem;

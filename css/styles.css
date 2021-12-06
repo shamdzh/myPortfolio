@@ -52,6 +52,17 @@ button:focus,
   border-width: 2px;
 }
 
+.gitBtn:hover a {
+  color: #333;
+}
+
+.gitBtn a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
 .myNav {
   padding: 10px 0;
   background: #3b5998;
