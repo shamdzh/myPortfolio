@@ -1,276 +1,545 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>Document</title>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-         rel="stylesheet"
-         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-         crossorigin="anonymous"
-      />
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-      <link
-         rel="stylesheet"
-         href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-         crossorigin="anonymous"
-      />
-      <link rel="stylesheet" href="./css/styles.css" />
-   </head>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark myNav">
-         <div class="container-md">
-            <a class="navbar-brand" href="https://github.com/shamdzh">@shamdzh</a>
-           <div class="btn btn-outline-light btn-sm gitBtn">
-               <a href="https://github.com/shamdzh">Перейти на GitHub</a>
-           </div> 
-               
-         </div>
-      </nav>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark myNav">
+      <div class="container-md">
+        <a class="navbar-brand" href="https://github.com/shamdzh">@shamdzh</a>
 
-      <section class="projects">
-         <div class="container">
-            <h2 class="projects__title">Мои проекты</h2>
+        <a href="https://github.com/shamdzh">
+          <div class="btn btn-outline-light btn-sm gitBtn">
+            Перейти на GitHub
+          </div>
+        </a>
+      </div>
+    </nav>
+
+    <section class="projects">
+      <div class="container">
+        <h2 class="projects__title">Мои проекты</h2>
+        <p class="lead">
+          Здесь представлены проекты, над которыми я работал в последнее время
+        </p>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center align-items-start"
+        >
+
+
+        <div class="col d-flex justify-content-center">
+          <div class="card cardBox">
+            <div class="cardImg">
+              <img src="./images/1.jpg" class="card-img-top" alt="..." />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">MyNotes</h5>
+              <p class="card-text">
+                Сервис для ведения личных записей разработанный на React JS с
+                использованием функциональных компонентов. Для хранения и
+                добавления заметок используются инструменты Firebase.
+              </p>
+              <div class="card-links">
+                <a
+                  href="https://github.com/shamdzh/MyNotes"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://mynotes.bokhch.online"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+            </div>
+
+            <div class="skills">
+              <ul class="skills__list">
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">React JS</li>
+                <li class="skill">Redux</li>
+                <li class="skill">Firebase</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/13.PNG" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Contact service</h5>
+                <p class="card-text">
+                  Приложение для хранения и управления контактами. Данный проект
+                  разработан на TypeScript в связке с ReactJS.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myContacts"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://bokhch.online/media/contacts.mp4"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">SCSS</li>
+                  <li class="skill">TypeScript</li>
+                  <li class="skill">React JS</li>
+                  <li class="skill">Redux</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/12.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MyCRM</h5>
+                <p class="card-text">
+                  Выполненное тестовое задание на должность React разработчика.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myCRM"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://mycrm.bokhch.online"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">SCSS</li>
+                  <li class="skill">Bootstrap</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">React JS</li>
+                  <li class="skill">Redux</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+         
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/3.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MyKFC</h5>
+                <p class="card-text">
+                  Сайт на React JS для заказа еды с стиле KFC. Проект
+                  разрабатывался с использованием классовых компонентов в связке
+                  с Redux библиотекой для управления состоянием приложения.
+                  Серверная часть реализована с помощью Firebase.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myKFC"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://mykfc.bokhch.online"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">React JS</li>
+                  <li class="skill">Redux</li>
+                  <li class="skill">Firebase</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/11.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">getLink</h5>
+                <p class="card-text">
+                  Сервис для сокращения длинных ссылок, работающий по принципу редиректа. Переходи по ссылке ниже и получай пользу от сервиса уже сейчас.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myKFC"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://mykfc.bokhch.online"
+                  target="_blank"
+                  class="card-link"
+                >
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">SCSS</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">React JS</li>
+                  <li class="skill">Redux</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/2.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MyTrello</h5>
+                <p class="card-text">
+                  Приложение по типу Trello с красивой анимацией разработанное
+                  на JavaScript без сторонних библиотек. Создавайте колонки,
+                  добавляйте в них карточки, а также перемещайте их по принципу
+                  Drag and Drop.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myTrello"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="https://shamdzh.github.io/myTrello/"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/4.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ecco</h5>
+                <p class="card-text">
+                  Полностью адаптивный и кроссбраузерный одностраничный сайт
+                  разработанный с использованием библиотеки Bootstrap.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/ecco"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="https://shamdzh.github.io/ecco/"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">Bootstrap</li>
+                  <li class="skill">JavaScript</li>
+                  <li class="skill">JQuery</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/6.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MoGo</h5>
+                <p class="card-text">
+                  Верстка сайта по макету из PSD. Данный сайт также
+                  разрабатывался в учебных целях.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/MoGo"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="https://shamdzh.github.io/MoGo"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/10.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Codewars</h5>
+                <p class="card-text">
+                  Codewars - англоязычный сервис с задачами по программированию.
+                  Данный сервис используется мною для накопленя практического
+                  опыта по JavaScript.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/codewars"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть решенные задачи на GitHub
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">JavaScript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/5.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Landing page</h5>
+                <p class="card-text">
+                  Верстка лендинга (HTML + SCSS) по макету из PSD. Данный сайт
+                  разрабатывался в учебных целях.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/Landing-page"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="https://shamdzh.github.io/Landing-page/"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">HTML</li>
+                  <li class="skill">SCSS</li>
+                  <li class="skill">Flexbox</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <div class="card cardBox">
+              <div class="cardImg">
+                <img src="./images/8.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">English Lock (Android OS)</h5>
+                <p class="card-text">
+                  English Lock позволяет запоминать десятки новых слов в день.
+                  Использование экрана блокировки делает обучение крайне
+                  эффективным, а сам процесс абсолютно свободным и легким. В
+                  данном проекте мною была реализована Frontend часть
+                  приложения.
+                </p>
+                <a
+                  href="https://github.com/shamdzh/myKFC"
+                  target="_blank"
+                  id="github"
+                  class="card-link"
+                >
+                  Посмотреть исходный код
+                </a>
+                <a
+                  href="http://mykfc.bokhch.online"
+                  target="_blank"
+                  class="card-link"
+                >
+                  Посмотреть демо
+                </a>
+              </div>
+
+              <div class="skills">
+                <ul class="skills__list">
+                  <li class="skill">Java</li>
+                  <li class="skill">Android SDK</li>
+                  <li class="skill">PHP</li>
+                  <li class="skill">MySQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <h2 class="about__title">Информация обо мне</h2>
+          <div class="col-12">
             <p class="lead">
-               Здесь представлены проекты, над которыми я работал в последнее
-               время
+              Меня зовут Шамиль. Мне 26 лет. Живу в городе Грозный. Окончил
+              ГГНТУ им. Миллионщикова и получил степень магистра по направлению
+              "Информационные системы и технологии".
+              <br />
+              Активно развиваюсь по Frontend направлению веб-разработчика
+              последние полтора года. За это время успел разработать несколько
+              личных проектов, а также приобрел знания и опыт по следующим
+              технологиям: <br />
+              - HTML5, CSS3/SASS (Адаптивная и кроссбраузерная верстка) <br />
+              - Работа с фреймворками Bootstrap, Material UI и т.п. <br />
+              - TypeScript <br />
+              - JavaScript (ES6) <br />
+              - React JS / Redux <br />
+              - Базовые знания Git <br />
+              - Работа с Gulp  <br />
+              - Взаимодействие по REST API <br />
+              - Понимание протокола HTTP, HTTPS <br />
+              Также имеется опыт разработки мобильных приложений на Android.
             </p>
-            <div
-               class="
-                  row row-cols-1 row-cols-md-2 row-cols-lg-3
-                  g-4
-                  justify-content-center
-                  align-items-start
-               "
-            >
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/1.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">MyNotes</h5>
-                        <p class="card-text">
-                           Сервис для ведения личных записей разработанный на React JS с использованием функциональных компонентов. Для хранения и добавления заметок используются инструменты Firebase.
-                        </p>
-                        <div class="card-links">
-                           <a href="http://mynotes.bokhch.online" target="_blank" class="card-link">Перейти к проекту</a>
-                        </div>
-                     </div>
+          </div>
+        </div>
 
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">CSS</li>
-                           <li class="skill">JavaScript</li>
-                           <li class="skill">React JS</li>
-                           <li class="skill">Redux</li>
-                           <li class="skill">Firebase</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/3.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">MyKFC</h5>
-                        <p class="card-text">
-                           Еще один сервис на React JS для заказа еды с стиле  KFC. Проект разрабатывался с использованием классовых компонентов в связке Redux библиотекой для управления состоянием приложения. Серверная часть реализована с помощью Firebase.
-                        </p>
-                        <a href="http://mykfc.bokhch.online" target="_blank" class="card-link">Перейти к проекту</a>
-                     </div>
-
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">CSS</li>
-                           <li class="skill">JavaScript</li>
-                           <li class="skill">React JS</li>
-                           <li class="skill">Redux</li>
-                           <li class="skill">Firebase</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-               
-
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/2.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">MyTrello</h5>
-                        <p class="card-text">
-                           Приложение по типу Trello с красивой анимацией разработанное на JavaScript без  сторонних библиотек. Создавайте колонки, добавляйте в них карточки, а также перемещайте их по принципу Drag and Drop.
-                        </p>
-                        <a href="https://shamdzh.github.io/myTrello/" target="_blank" class="card-link">Перейти к проекту</a>
-                     </div>
-
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">CSS</li>
-                           <li class="skill">JavaScript</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/4.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">Ecco</h5>
-                        <p class="card-text">
-                           Полностью адаптивный и кроссбраузерный одностраничный сайт разработанный с помощью библиотеки Bootstrap.
-                        </p>
-                        <a href="https://shamdzh.github.io/ecco/" target="_blank" class="card-link">Перейти к проекту</a>
-                     </div>
-
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">CSS</li>
-                           <li class="skill">Bootstrap</li>
-                           <li class="skill">JavaScript</li>
-                           <li class="skill">JQuery</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/5.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">Landing page</h5>
-                        <p class="card-text">
-                           Верстка лендинга (HTML + SCSS) по макету из PSD. Данный сайт разрабатывался в учебных целях.
-                        </p>
-                        <a href="https://shamdzh.github.io/Landing-page/" target="_blank" class="card-link">Перейти к проекту</a>
-                     </div>
-
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">SCSS</li>
-                           <li class="skill">Flexbox</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col d-flex justify-content-center">
-                  <div class="card cardBox">
-                     <div class="cardImg">
-                        <img
-                           src="./images/6.jpg"
-                           class="card-img-top"
-                           alt="..."
-                        />
-                     </div>
-                     <div class="card-body">
-                        <h5 class="card-title">MoGo</h5>
-                        <p class="card-text">
-                           Верстка сайта по макету из PSD. Данный сайт также разрабатывался в учебных целях.
-                        </p>
-                        <a href="https://shamdzh.github.io/MoGo/" target="_blank" class="card-link">Перейти к проекту</a>
-                     </div>
-
-                     <div class="skills">
-                        <ul class="skills__list">
-                           <li class="skill">HTML</li>
-                           <li class="skill">CSS</li>
-                           <li class="skill">JavaScript</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-
+        <div class="row">
+          <div class="contacts">
+            <div class="email">
+              <i class="fas fa-envelope"></i>shdzhanhotov@mail.ru
             </div>
-         </div>
-      </section>
-
-      <section class="about">
-         <div class="container">
-            <div class="row d-flex justify-content-center">
-               <h2 class="about__title">Информация обо мне</h2>
-               <div class="col-12 col-lg-8">
-                  <p class="lead">
-                     Меня зовут Шамиль. Мне 25 лет. Живу в городе Грозный.
-                     Окончил ГГНТУ им. Миллионщикова и получил степень магистра
-                     по направлению "Информационные системы и технологии".
-                     Последние два года активно занимаюсь разработкой по
-                     Frontend части. За это время успел разработать несколько
-                     своих личных проектов.
-                  </p>
-               </div>
+            <div class="phone">
+              <i class="fas fa-phone-alt"></i>8 (963) 583 01 05
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="row">
-               <div class="contacts">
-                  <div class="email">
-                     <i class="fas fa-envelope"></i>shdzhanhotov@mail.ru
-                  </div>
-                  <div class="phone">
-                     <i class="fas fa-phone-alt"></i>8 (963) 583 01 05
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+    <section class="myfooter">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <p class="author">© 2022, Shamil' Dzhanhotov</p>
+        </div>
+      </div>
+    </section>
 
-      <section class="myfooter">
-         <div class="container">
-            <div class="row d-flex justify-content-center">
-               <p class="author">© 2021, Shamil' Dzhanhotov</p>
-            </div>
-         </div>
-      </section>
-
-      <script
-         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-         crossorigin="anonymous"
-      ></script>
-      <script src="./js/main.js"></script>
-   </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

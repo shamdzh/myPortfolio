@@ -1,0 +1,8 @@
+RewriteEngine on 
+RewriteBase / 
+RewriteCond %{HTTP_HOST} ^mykfc\.bokhch\.online$ 
+RewriteCond %{REQUEST_URI} !/mykfc/ 
+RewriteRule ^(.*)$ /mykfc/$1 [L]
+RewriteCond %{HTTP_HOST} ^mynotes\.bokhch\.online$ 
+RewriteCond %{REQUEST_URI} !/mynotes/ 
+RewriteRule ^(.*)$ /mynotes/$1 [L]

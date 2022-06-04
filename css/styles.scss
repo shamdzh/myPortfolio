@@ -117,11 +117,18 @@ button:focus,
    color: #1c64c4;
    font-weight: 500;
    text-decoration: none;
+   display: block;
+   margin-top: 3px;
+   margin-left: 0 !important;
 
    &:hover {
       color: #196edd;
       cursor: pointer;
    }
+}
+
+#github {
+   color: rgb(85, 85, 85);
 }
 
 
